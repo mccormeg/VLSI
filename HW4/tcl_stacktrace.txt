@@ -1,0 +1,73 @@
+Thu May 10 20:04:08 PDT 2018
+Trace back: invalid command name ""
+    while executing
+"$this component $tree"
+    (method "::vsimwidgets::VTree::activate" body line 6)
+    invoked from within
+"activate"
+    (method "::WaveTree::Activate" body line 12)
+    invoked from within
+".main_pane.wave.interior.cs.body.pw.wf.tree Activate .main_pane.wave"
+    (in namespace inscope "::Wave" script line 1)
+    invoked from within
+"namespace inscope ::Wave {.main_pane.wave.interior.cs.body.pw.wf.tree Activate} .main_pane.wave"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.wave" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$active_window Activate"
+    (object "::.vcop" method "::vsimwidgets::Vcop::Action" body line 118)
+    invoked from within
+"$::vsimPriv(Vcop) Action $action $Menu($menu)"
+    (procedure "::Vsimmenu::DefaultMenuPostCmd" line 45)
+    invoked from within
+"::Vsimmenu::DefaultMenuPostCmd .main_pane.wave.mBar.bookmarks {namespace inscope ::vsimwidgets::bookmarkmgr {::.bookmarkmgr _menu_prepost .main_pane.w..."
+    invoked from within
+".main_pane.wave.#main_pane#wave#mBar.#main_pane#wave#mBar#bookmarks post 650 153"
+    invoked from within
+"$menu postcascade active"
+    (procedure "tk::MenuButtonDown" line 8)
+    invoked from within
+"tk::MenuButtonDown .main_pane.wave.#main_pane#wave#mBar"
+    (command bound to event)
+  <2:/nfs/guille/a2/rh80apps/mti/10.5/modeltech/linux_x86_64/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ""}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ""}
+Thu May 10 20:05:27 PDT 2018
+Trace back: invalid command name ""
+    while executing
+"$this component $tree"
+    (method "::vsimwidgets::VTree::activate" body line 6)
+    invoked from within
+"activate"
+    (method "::WaveTree::Activate" body line 12)
+    invoked from within
+".main_pane.wave.interior.cs.body.pw.wf.tree Activate .main_pane.wave"
+    (in namespace inscope "::Wave" script line 1)
+    invoked from within
+"namespace inscope ::Wave {.main_pane.wave.interior.cs.body.pw.wf.tree Activate} .main_pane.wave"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.wave" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$active_window Activate"
+    (object "::.vcop" method "::vsimwidgets::Vcop::Action" body line 118)
+    invoked from within
+"Action SetMenuState $button_list"
+    (object "::.vcop" method "::vsimwidgets::Vcop::InternalUpdateToolbars" body line 53)
+    invoked from within
+".vcop InternalUpdateToolbars"
+    ("after" script)
+  <2:/nfs/guille/a2/rh80apps/mti/10.5/modeltech/linux_x86_64/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ""}
+  <1:proc:24: ::tk::dialog::error::bgerror {invalid command name ""}
+Thu May 10 20:29:20 PDT 2018
+Trace back: invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+    while executing
+"$widget index @$x,$y"
+    (procedure "WaveABar::mouseMotionUpdate" line 19)
+    invoked from within
+"WaveABar::mouseMotionUpdate .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data .main_pane.wave.interior.cs.body.pw.wf 426 391"
+    ("after" script)
+  <2:/nfs/guille/a2/rh80apps/mti/10.5/modeltech/linux_x86_64/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
